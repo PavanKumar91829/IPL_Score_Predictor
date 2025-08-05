@@ -21,9 +21,7 @@ The project uses comprehensive IPL match data, which includes information about:
 │   ├── IPL_Score_Predictor.py                   # Streamlit web application
 │   └── xgb_IPL_final_score_model.pkl           # Trained XGBoost model
 ├── Dataset/
-│   ├── IPL_first_innings.csv                   # Raw match data
-│   ├── df1_EDA.pkl                             # Data after EDA
-│   └── df1_processed.pkl                       # Processed data for training
+│   ├── IPL_first_innings.csv                   # IPL 1st Innings ball by ball dataset       
 └── README.md
 ```
 
@@ -91,3 +89,4 @@ The application automatically calculates:
 - Add player-specific analysis to consider individual batsman and bowler performance
 - Incorporate weather conditions and pitch reports for more accurate predictions
 - Include real-time data integration for live match predictions
+
